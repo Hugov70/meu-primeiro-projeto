@@ -34,7 +34,8 @@ body {
 header {
     background-image: linear-gradient(to top, var(--cor4), var(--cor3));
     color: white;
-    padding: 15px;
+    padding: 15px;    
+    
 }
 
 header > h1 {
@@ -125,4 +126,12 @@ footer {
     position: fixed;
     bottom: 0;
 
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer a:hover {
+    text-decoration: underline;
 }
