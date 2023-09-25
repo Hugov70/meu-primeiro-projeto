@@ -1,4 +1,6 @@
 main {
+        min-width: 280px;
+        max-width: 600px;
         text-align: center;
         list-style-position: inside;
     } 
