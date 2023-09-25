@@ -29,12 +29,15 @@ body {
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    position: relative;
 }
 
 header {
     background-image: linear-gradient(to top, var(--cor4), var(--cor3));
     color: white;
     padding: 15px;    
+    position: sticky;
+    top: -1px;
     
 }
 
@@ -52,6 +55,8 @@ nav {
     background-color: var(--cor5);
     text-align: center;
     padding: 3px;
+    position: sticky;
+    top: 140px;
 }
 nav a {
     color: white;
@@ -70,7 +75,7 @@ nav a:hover {
 
 main {
     background-color: white;
-    max-width: 800px;
+    max-width: 600px;
     min-width: 300px;
     margin: auto;
     padding: 20px;
