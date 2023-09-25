@@ -118,11 +118,12 @@ main a:hover {
 
 footer {
     background-color: var(--cor5);
+    background-position: 100vw;
     color: white;
     font-family: var(--fonte-padrao);
     text-align: center;
     padding: 3PX;
-    margin-top: 15px;
+    
 
 }
 
