@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
 main {
         min-width: 280px;
         max-width: 600px;
@@ -8,3 +12,35 @@ main {
     main p {
         text-align: center;
     }
+    div.skins {
+        width: 150px;
+        margin: auto;
+        padding: 15px;
+        margin-bottom: 50px;
+        
+
+        
+    }
+    table {
+        padding: 0px;
+        border: 1px solid black;    
+        display: block;
+        margin: auto;
+        
+    }
+
+
+    th {
+        background-color: gray;
+        padding: 3px;
+        width: 150px;
+        border-bottom: 1px solid black;
+        margin-bottom: 10px;
+        text-align: left;
+
+    }
+    td > a > img {
+        margin: 10px 0px;
+    
+    }
+

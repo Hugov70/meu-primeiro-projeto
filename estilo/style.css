@@ -35,10 +35,7 @@ body {
 header {
     background-image: linear-gradient(to top, var(--cor4), var(--cor3));
     color: white;
-    padding: 15px;    
-    position: sticky;
-    top: -1px;
-    
+    padding: 15px;        
 }
 
 header > h1 {
@@ -55,8 +52,7 @@ nav {
     background-color: var(--cor5);
     text-align: center;
     padding: 3px;
-    position: sticky;
-    top: 140px;
+
 }
 nav a {
     color: white;
