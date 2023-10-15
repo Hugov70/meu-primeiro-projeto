@@ -6,7 +6,9 @@
     <title>nwme</title>
     <link rel="stylesheet" href="../estilo/style.css">
     <link rel="stylesheet" href="../estilo/players.css">
-    <link rel="shortcut icon" href="../imagens/nwme.25.png" type="image/x-icon">    
+    <link rel="stylesheet" href="../estilo/media-query.css" media="screen and (min-width: 600px)">
+    <link rel="shortcut icon" href="../imagens/nwme.25.png" type="image/x-icon">   
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /> 
 
 </head>
 <body>
@@ -16,14 +18,15 @@
         O melhor site do brasil
         </p>
     </header>
-    <nav>
-        <p id="pmenu">
+    <nav id="burguer">
+        <i id="menu" onclick="mostrarMenu()" class="material-symbols-outlined">menu</i>
+        <div id="itens">
             <a class="vis" href="../bestplayers.html">Home</a>
             <a class="vis" href="../players/70hy.html">70hy_</a>
             <a class="vis" href="../players/niculinha.html">Niculinha</a>
             <a class="vis" href="../players/nwme.html">Nwme</a>
-        </p>
-    </nav> 
+        </div>
+    </nav>
             
    
    <main>
@@ -45,5 +48,22 @@
     <footer>
         <p>&copy;Desenvolvido por <a href="https://github.com/Hugov70" target="_blank">Hugov70</a> | Todos os direitos reservados</p>
     </footer>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 600) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function mostrarMenu() {
+            if (itens.style.display == 'none') {
+                itens.style.display ='block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+     </script>
 </body>
 </html>
