@@ -49,6 +49,12 @@ header > p {
     margin-bottom: 15px;
 }
 
+header > span#horas {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}
+
 nav {
     background-color: var(--cor5);
     text-align: center;

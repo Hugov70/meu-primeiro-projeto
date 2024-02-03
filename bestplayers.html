@@ -15,14 +15,15 @@
         <p>Desenvolvido por 70hy. <br>
         O melhor site do brasil
         </p>
+        <span id="horas">Oi</span>
     </header>
     <nav>
         <i id="menu" onclick="mostrarMenu()" class="material-symbols-outlined">menu</i>
         <div id="itens">
-            <a class="vis" href="bestplayers.html">Home</a>
-            <a class="vis" href="players/70hy.html">70hy_</a>
-            <a class="vis" href="players/niculinha.html">Niculinha</a>
-            <a class="vis" href="players/nwme.html">Nwme</a>
+            <a class="vis" href="http://localhost:3000/">Home</a>
+            <a class="vis" href="http://localhost:3000/70hy" onclick="direcionamento()">70hy_</a>
+            <a class="vis" href="http://localhost:3000/niculinha" onclick="direcionamento()">Niculinha</a>
+            <a class="vis" href="http://localhost:3000/nwme" onclick="direcionamento()">Nwme</a>
         </div>
     </nav>
    <main>
@@ -57,6 +58,16 @@
                 itens.style.display = 'none'
             }
         }
+
+
+
+        const horas = document.getElementById('horas');
+        const data = new Date();
+        const opcoes = {
+            dateStyle: 'short',
+            timeStyle: 'short'
+        }
+        horas.innerHTML = `${data.toLocaleString('pt-BR', opcoes)}`
      </script>
 </body>
 </html>
